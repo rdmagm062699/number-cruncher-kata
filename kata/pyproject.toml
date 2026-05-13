@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "number-cruncher-kata"
+version = "0.1.0"
+description = "The Number Cruncher Kata"
+authors = []
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+number-cruncher = {path = "../number-cruncher-lib", develop = true}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
