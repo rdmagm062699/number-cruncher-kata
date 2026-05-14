@@ -5,7 +5,7 @@ name = "number-cruncher"
 version = "0.1.0"
 description = "The Number Cruncher - a mysterious black-box computation engine"
 optional = false
-python-versions = "^3.11"
+python-versions = ">=3.10"
 groups = ["main"]
 files = []
 develop = true
@@ -16,5 +16,5 @@ url = "../number-cruncher-lib"
 
 [metadata]
 lock-version = "2.1"
-python-versions = "^3.11"
-content-hash = "2bccfb20289ba50bfa15854ff7fb010074446f42e5a6b9f5f70839cf74ee247d"
+python-versions = ">=3.10"
+content-hash = "100145b230c59be1bc36dbe27d5555c5049a546f7e5207379b829eac3ca35f9b"
