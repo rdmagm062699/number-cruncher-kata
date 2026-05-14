@@ -1,3 +1,4 @@
+import pytest
 import unittest
 from unittest.mock import patch
 from src.reporter import crunch_report
