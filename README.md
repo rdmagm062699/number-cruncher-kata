@@ -26,14 +26,14 @@ Which messages are returned depends on the result returned by `crunch_the_number
 
 | Condition | Message to include |
 |---|---|
-*| result < 10 | `The crunch is too small to matter` |
+| result < 10 | `The crunch is too small to matter` |
 | result >= 10 and < 100 | `The crunch is ok` |
 | result >= 10 and < 100, and result is a multiple of 3 | `Fizz` |
 | result >= 10 and < 100, and result is a multiple of 5 | `Buzz` |
 | result >= 100 and < 1000 | `The crunch is good` |
 | result >= 100 and < 1000, and result is a multiple of 3 | `Fizzier` |
 | result >= 100 and < 1000, and result is a multiple of 5 | `Buzzier` |
-*| result >= 1000 | `The crunch is off the charts` |
+| result >= 1000 | `The crunch is off the charts` |
 | `crunch_the_numbers` raises an exception | `The crunch failed` |
 
 Multiple messages can apply in the same call. A result of 30, for example, is `>= 10`, `< 100`, and a multiple of both 3 and 5 — so three messages apply: `"The crunch is ok"`, `"Fizz"`, and `"Buzz"`.
